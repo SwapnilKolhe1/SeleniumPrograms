@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite errors="0" failures="2" hostname="PC0QYKT0" name="pytest" skipped="0" tests="7" time="0.241" timestamp="2022-06-03T08:42:46.183244"><testcase classname="test_first" file="test_first.py" line="1" name="test_1" time="0.002"><failure message="assert 10 == 20">def test_1():
+        x = 10
+        y = 20
+&gt;       assert x == y   # assert is like comparision if its result is true then test case is passed if false then test case is failed
+E       assert 10 == 20
+
+test_first.py:5: AssertionError</failure></testcase><testcase classname="test_first" file="test_first.py" line="7" name="test_2" time="0.002"></testcase><testcase classname="test_first" file="test_first.py" line="13" name="test_t3" time="0.001"></testcase><testcase classname="third_test" file="third_test.py" line="1" name="test_1" time="0.005"><failure message="assert 10 == 20">def test_1():
+        x = 10
+        y = 20
+&gt;       assert x == y   # assert is like comparision if its result is true then test case is passed if false then test case is failed
+E       assert 10 == 20
+
+third_test.py:5: AssertionError</failure></testcase><testcase classname="third_test" file="third_test.py" line="7" name="test_2" time="0.002"></testcase><testcase classname="third_test" file="third_test.py" line="13" name="test_t3" time="0.009"></testcase><testcase classname="third_test" file="third_test.py" line="20" name="test_some" time="0.002"></testcase></testsuite></testsuites>
